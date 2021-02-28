@@ -13,7 +13,7 @@ func _on_menu(id:int) -> void:
 		
 		# Open Rakugo Docs
 		2:
-			OS.shell_open("https://rakugoteam.github.io/RakugoDocs-new/")
+			OS.shell_open("https://rakugodocs.readthedocs.io")
 		
 		# About Rakugo
 		3:
