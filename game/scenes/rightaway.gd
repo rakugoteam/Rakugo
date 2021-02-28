@@ -57,7 +57,7 @@ func rightaway():
 
 	show("sylvie green smile")
 	say("s", "Sure, but what's a {i}visual novel?{/i}", {"typing":false})
-	Rakugo.StoreManager.set("book", false)
+	Rakugo.store.set("book", false)
 	var choice = menu([
 		["It's a videogame.", game, {}],
 		["It's an interactive book.", book, {}]
@@ -68,7 +68,7 @@ func rightaway():
 		$game.start()
 
 	elif cond(choice == book):
-		Rakugo.StoreManager.set("book", true)
+		Rakugo.store.set("book", true)
 		$book.start()
 
 	end_event()

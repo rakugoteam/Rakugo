@@ -13,7 +13,7 @@ func marry():
 	say(null, "Over the years, we make lots of games and have a lot of fun making them.")
 	step()
 
-	var book = Rakugo.StoreManager.get("book")
+	var book = Rakugo.store.get("book")
 	if cond(book):
 		say(null, "Our first game is based on one of Sylvie's ideas,"
 		+ " but afterwards I get to come up with stories of my own, too."
