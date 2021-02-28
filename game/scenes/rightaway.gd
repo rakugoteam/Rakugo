@@ -65,12 +65,10 @@ func rightaway():
 
 	# to make menu use safe for rollback
 	if cond(choice == game):
-		if is_active():
-			$game.start()
+		$game.start()
 
 	elif cond(choice == book):
-		if is_active():
-			Rakugo.StoreManager.set("book", true)
-			$book.start()
+		Rakugo.StoreManager.set("book", true)
+		$book.start()
 
 	end_event()

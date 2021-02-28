@@ -77,11 +77,9 @@ func intro_dialog():
 	])
 	
 	if cond(choice == now):
-		if is_active():
-			$rightaway.start()
+		$rightaway.start()
 
 	elif cond(choice == later):
-		if is_active():
-			$later.start()
+		$later.start()
 	
 	end_event()
