@@ -16,9 +16,9 @@ refences/
 saves/
 .directory
 .vscode/
+workspace.code-workspace
 .*.kra
 reference.json
 tests
 
-# For now
-test/
+
