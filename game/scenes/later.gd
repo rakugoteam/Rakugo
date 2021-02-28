@@ -23,7 +23,6 @@ func later():
 	show("bg black")
 	show("label", {"text":"Bad Ending"})
 	step()
-
+	
 	Rakugo.reset_game()
-
-	end_event()
+	exit()

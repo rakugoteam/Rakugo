@@ -88,10 +88,11 @@ func marry():
 
 	say(null, "Together, we live happily ever after even now.") 
 	step()
-
+	
+	hide("sylvie")
 	show("bg black")
 	show("label", {"text":"Good Ending"})
 	step()
-
+	
 	Rakugo.reset_game()
-	end_event()
+	exit()
