@@ -247,11 +247,12 @@ rakugo_hide_ui_toggle={
 
 [rakugo]
 
-game/info/version="3.1.1"
+game/info/version="3.1.2"
 default/narrator/name=""
 default/statements/default_say_parameters={
 "typing": true
 }
+game/scenes/force_reload=true
 
 [rendering]
 

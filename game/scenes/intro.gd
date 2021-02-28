@@ -12,6 +12,7 @@ func _ready() -> void:
 func intro_dialog():
 	start_event("intro_dialog")
 	
+	hide("label")
 	hide("sylvie")
 	show("bg lecturehall")
 	say(null,
